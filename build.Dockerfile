@@ -1,4 +1,4 @@
-FROM golang:1.16.7
+FROM golang:1.19.10
 
 RUN go get github.com/jteeuwen/go-bindata/... \
 && go get github.com/golang/lint/golint \
